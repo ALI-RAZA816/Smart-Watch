@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap CSS file -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- main CSS file  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <!-- main jQuery file  -->
+    <!-- <script src="./js/jquery.html.js"></script> -->
+    <!-- bootstrap JS file  -->
+    <!-- <link rel="stylesheet" href="./js/bootstrap.js"> -->
+    <!-- <link rel="stylesheet" href="./js/bootstrap.bundle.js"> -->
+    <!-- animate library CSS file  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- fontIcon CSS file  -->
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+    <title>PulseFit - Smart Fitness Watch</title>
+</head>
+<body>
+    <header class="bg-white py-md-1" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="mb-0 navbar navbar-expand-lg justify-content-between align-items-center">
+                        <a href="" class="navbar-brand">PulseFit</a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">
+                            <i class="fa-solid fa-bars text-primary" style="font-size: 1.6rem;"></i>
+                        </button>
+                        <div class="collapse navbar-collapse mb-0 justify-content-end" id="mynavbar">
+                            <ul class="navbar-nav mb-0 ">
+                                <li class="nav-item mr-md-4"><a href="" class="nav-link">Features</a></li>
+                                <li class="nav-item mr-md-4"><a href="" class="nav-link">Specs</a></li>
+                                <li class="nav-item mr-md-4"><a href="" class="nav-link">Reviews</a></li>
+                                <li class="nav-item mr-md-4"><a href="" class="nav-link">Pricing</a></li>
+                                <button class="btn btn-primary ml-lg-3">Pre-order Now</button>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="hero-section">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="container">
+                <div class="row align-items-center justify-content-between py-3 no-gutters">
+                    <div class="col-12 col-md-6" id="hero-text">
+                        <h1>Meet PulseFit Pro</h1>
+                        <p>The ultimate smartwatch for fitness enthusiasts and health-conscious individuals. Track, analyze, and improve your wellness journey.</p>
+                        <div class="d-flex" id="buttons">
+                            <button class="btn btn-primary">Buy Now</button>
+                            <button class="btn btn-primary">Explore Features</button>
+                        </div>
+                    </div>
+                    <div class="col-6 d-none d-md-block text-center" id="hero-img">
+                        <img src="./assets/image/1_06e73fe6-715f-47e5-8aeb-c260f581604f-removebg-preview.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="feature-section">
+            <div class="container text-center p-0">
+                <h1>Advanced Features</h1>
+                <p>PulseFit Pro is packed with cutting-edge technology to help you achieve your fitness goals</p>
+                <div class="row pt-5 justify-content-center no-gutters"> 
+                    <div class="col-lg-4 col-md-6 mb-3 px-2" id="feature-card">
+                        <div class="feature-box">
+                             <i class="fa-solid fa-heart-pulse"></i>
+                            <span>Heart Rate Monitoring</span>
+                            <p>24/7 accurate heart rate tracking with medical-grade precision to keep you informed about your cardiovascular.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 px-2" id="feature-card">
+                        <div class="feature-box">
+                            <i class="fa-solid fa-moon"></i>
+                            <span>Sleep Analysis</span>
+                            <p>Comprehensive sleep tracking with REM cycle detection and personalized recommendations for better rest.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-3 px-2" id="feature-card">
+                        <div class="feature-box">
+                            <i class="fa-solid fa-fire-flame-curved"></i>
+                            <span>Activity Tracking</span>
+                            <p>Automatically detects and records 15+ activities including running, swimming, cycling, and yoga.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 px-2" id="feature-card">
+                        <div class="feature-box">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>Fast Charging</span>
+                            <p>30-minute charge provides 7 days of battery life, so you can focus on your activities without interruption.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 px-2 mt-4 mt-md-0" id="feature-card">
+                        <div class="feature-box">
+                            <i class="fa-solid fa-droplet"></i>
+                            <span>Waterproof Design</span>
+                            <p>50m water resistance means you can swim, shower, and sweat without worrying about damage.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 px-2 mt-4 mt-md-0" id="feature-card">
+                        <div class="feature-box">
+                            <i class="fa-solid fa-map-location-dot"></i>
+                            <span>GPS Tracking</span>
+                            <p>Built-in dual-band GPS provides precise location tracking for outdoor activities and route mapping.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="design-performance">
+            <div class="container">
+                <div class="row justify-content-between align-items-center no-gutters">
+                    <div class="col-12 col-md-6 mb-4 mb-mb-0">
+                        <div class="image-container text-center">
+                            <img src="./assets/image/Image_Jul_19__2025__12_08_18.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="colorBtn">
+                            <div class="button active btn1"></div>
+                            <div class="button btn2"></div>
+                            <div class="button btn3"></div>
+                            <div class="button btn4"></div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="design-performance-content text-left">
+                            <h1>Designed for Performance</h1>
+                            <p>The PulseFit Pro combines sleek design with rugged durability. Our aerospace-grade aluminum casing and scratch-resistant sapphire glass ensure your watch looks great through every workout.</p>
+                            <div class="design-list my-3">
+                                <div class="design-content">
+                                    <div class="check-mark-circle"><i class="fa-solid fa-check"></i></div>
+                                    <div class="design-text">
+                                        <span>Lightweight Comfort</span>
+                                        <p>At just 42g, you'll forget you're wearing it until you need it.</p>
+                                    </div>
+                                </div>
+                                <div class="design-content">
+                                    <div class="check-mark-circle"><i class="fa-solid fa-check"></i></div>
+                                    <div class="design-text">
+                                        <span>Lightweight Comfort</span>
+                                        <p>At just 42g, you'll forget you're wearing it until you need it.</p>
+                                    </div>
+                                </div>
+                                <div class="design-content">
+                                    <div class="check-mark-circle"><i class="fa-solid fa-check"></i></div>
+                                    <div class="design-text">
+                                        <span>Lightweight Comfort</span>
+                                        <p>At just 42g, you'll forget you're wearing it until you need it.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary">Choose your modal</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="technical-specifications">
+            <div class="container">
+                <h1>Technical Specifications</h1>
+                <p>Premium components for peak performance</p>
+                <div class="row py-5 justify-content-between no-gutters">
+                    <div class="col-12 col-md-6 specs-list" >
+                        <ul>
+                            <li>
+                                <span>Display</span>
+                                <span>1.4" AMOLED, 454x454 pixels</span>
+                            </li>
+                            <li>
+                                <span>Battery Life</span>
+                                <span>Up to 14 days (7 days with always-on display)</span>
+                            </li>
+                            <li>
+                                <span>Charging</span>
+                                <span>Magnetic fast charging (0-100% in 60 min)</span>
+                            </li>
+                            <li>
+                                <span>Water Resistance</span>
+                                <span>5 ATM (50 meters)</span>
+                            </li>
+                            <li>
+                                <span>Sensors</span>
+                                <span>Optical heart rate, SpO2, accelerometer, gyroscope, ambient light</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 specs-list" >
+                        <ul>
+                            <li>
+                                <span>Connectivity</span>
+                                <span>Bluetooth 5.2, Wi-Fi, NFC</span>
+                            </li>
+                            <li>
+                                <span>GPS</span>
+                                <span>Dual-band GPS, GLONASS, Galileo</span>
+                            </li>
+                            <li>
+                                <span>Memory</span>
+                                <span>8GB (stores up to 500 songs)</span>
+                            </li>
+                            <li>
+                                <span>Compatibility</span>
+                                <span>iOS 12+ and Android 8+</span>
+                            </li>
+                            <li>
+                                <span>Materials</span>
+                                <span>Aerospace aluminum, sapphire glass, silicone bands</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="customer-section">
+            <div class="container">
+                <h1>What Our Customers Say</h1>
+                <p>Join thousands of satisfied users worldwide</p>
+                <div class="row pt-5 no-gutters">
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0 px-3 customers-boxes">
+                        <div class="customers">
+                            <blockquote class="blockquote">
+                                "The PulseFit Pro has completely changed my fitness routine. The accuracy of the heart rate monitor is impressive, and the battery life is unmatched."
+                            </blockquote>
+                            <div class="img">
+                                <img src="./assets/image/customers/testimonials-2.jpg" alt="">
+                                <div class="name-field">
+                                    <h3>Sarah J.</h3>
+                                    <span>Marathon Runner</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 px-3 customers-boxes">
+                        <div class="customers">
+                            <blockquote class="blockquote">
+                                "The PulseFit Pro has completely changed my fitness routine. The accuracy of the heart rate monitor is impressive, and the battery life is unmatched."
+                            </blockquote>
+                            <div class="img">
+                                <img src="./assets/image/customers/testimonials-1.jpg" alt="">
+                                <div class="name-field">
+                                    <h3>Michael T.</h3>
+                                    <span>Personal Trainer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 px-3 mt-4 mt-lg-0 customers-boxes">
+                        <div class="customers">
+                            <blockquote class="blockquote">
+                                "I've tried many smartwatches, but none compare to the PulseFit Pro. The GPS accuracy is perfect for my trail runs, and the design is sleek enough for daily wear."
+                            </blockquote>
+                            <div class="img">
+                                <img src="./assets/image/customers/testimonials-3.jpg" alt="">
+                                <div class="name-field">
+                                    <h3>Emma R.</h3>
+                                    <span>Outdoor Enthusiast</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pricing-section">
+            <div class="container">
+                <h1>Simple, Transparent Pricing</h1>
+                <p>Choose the perfect plan for your needs</p>
+                <div class="row pt-5 no-gutters">
+                    <div class="col-lg-4 mb-4 mb-md-0 col-md-6 px-3" id="pricing-card">
+                        <div id="card">
+                            <div id="card-header">
+                                <h3>Standard</h3>
+                                <h1>$199</h1>
+                                <p>one-time payment</p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                            <div id="card-body">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>All basic fitness tracking</li>
+                                    <li><i class="fa-solid fa-check"></i>Heart rate monitoring</li>
+                                    <li><i class="fa-solid fa-check"></i>Sleep analysis</li>
+                                    <li><i class="fa-solid fa-check"></i>7-day battery life</li>
+                                    <li><i class="fa-solid fa-check"></i>1-year warranty</li>
+                                    <li><i class="fa-solid fa-xmark"></i>Advanced workout metrics</li>
+                                    <li><i class="fa-solid fa-xmark"></i>Music storage</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 px-3" id="pricing-card">
+                        <div id="card">
+                            <div id="card-header">
+                                <h3>Pro</h3>
+                                <h1>$249</h1>
+                                <p>one-time payment</p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                            <div id="card-body">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Everything in Standard</li>
+                                    <li><i class="fa-solid fa-check"></i>Advanced workout metrics</li>
+                                    <li><i class="fa-solid fa-check"></i>8GB music storage</li>
+                                    <li><i class="fa-solid fa-check"></i>Dual-band GPS</li>
+                                    <li><i class="fa-solid fa-check"></i>SpO2 monitoring</li>
+                                    <li><i class="fa-solid fa-check"></i>2-year warranty</li>
+                                    <li><i class="fa-solid fa-xmark"></i>Premium coaching</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 px-3" id="pricing-card">
+                        <div id="card">
+                            <div id="card-header">
+                                <h3>Premium</h3>
+                                <h1>$299</h1>
+                                <p>one-time payment</p>
+                                <button class="btn btn-primary">Buy Now</button>
+                            </div>
+                            <div id="card-body">
+                                <ul>
+                                    <li><i class="fa-solid fa-check"></i>Everything in Pro</li>
+                                    <li><i class="fa-solid fa-check"></i>Premium coaching plans</li>
+                                    <li><i class="fa-solid fa-check"></i>Exclusive watch faces</li>
+                                    <li><i class="fa-solid fa-check"></i>Priority customer support</li>
+                                    <li><i class="fa-solid fa-check"></i>3-year warranty</li>
+                                    <li><i class="fa-solid fa-check"></i>Free band (value $49)</li>
+                                    <li><i class="fa-solid fa-check"></i>6-month fitness app subscription</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="frequentlyQ">
+            <div class="container">
+                <h1>Frequently Asked Questions</h1>
+                <p>Find answers to common questions about PulseFit Pro</p>
+                <div class="row no-gutters">
+                    <div class="col-12 pt-5">
+                        <div class="accordion" id="mainAccordion">
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <button class="btn btn-block text-left" data-toggle="collapse" data-target="#accordion1" style="box-shadow:none;">How accurrate is the heart monitor?<i class="fa-solid fa-angle-down float-right mt-1"></i></button>
+                                </div>
+                                <div id="accordion1" class="collapse show" data-parent="#mainAccordion">
+                                    <div class="card-body">
+                                        The PulseFit Pro uses medical-grade optical heart rate technology that has been clinically validated for accuracy. In testing, it showed 99% correlation with ECG chest straps during steady-state activities. For high-intensity interval training or activities with lots of wrist movement, we recommend using a chest strap for maximum accuracy.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <button class="btn btn-block text-left" data-toggle="collapse" data-target="#accordion2" style="box-shadow:none;">How accurrate is the heart monitor?<i class="fa-solid fa-angle-down float-right mt-1"></i></button>
+                                </div>
+                                <div id="accordion2" class="collapse collapsed" data-parent="#mainAccordion">
+                                    <div class="card-body">
+                                        The PulseFit Pro uses medical-grade optical heart rate technology that has been clinically validated for accuracy. In testing, it showed 99% correlation with ECG chest straps during steady-state activities. For high-intensity interval training or activities with lots of wrist movement, we recommend using a chest strap for maximum accuracy.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <button class="btn btn-block text-left" data-toggle="collapse" data-target="#accordion3" style="box-shadow:none;">How accurrate is the heart monitor?<i class="fa-solid fa-angle-down float-right mt-1"></i></button>
+                                </div>
+                                <div id="accordion3" class="collapse collapsed" data-parent="#mainAccordion">
+                                    <div class="card-body">
+                                        The PulseFit Pro uses medical-grade optical heart rate technology that has been clinically validated for accuracy. In testing, it showed 99% correlation with ECG chest straps during steady-state activities. For high-intensity interval training or activities with lots of wrist movement, we recommend using a chest strap for maximum accuracy.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <button class="btn btn-block text-left" data-toggle="collapse" data-target="#accordion4" style="box-shadow:none;">How accurrate is the heart monitor?<i class="fa-solid fa-angle-down float-right mt-1"></i></button>
+                                </div>
+                                <div id="accordion4" class="collapse collapsed" data-parent="#mainAccordion">
+                                    <div class="card-body">
+                                        The PulseFit Pro uses medical-grade optical heart rate technology that has been clinically validated for accuracy. In testing, it showed 99% correlation with ECG chest straps during steady-state activities. For high-intensity interval training or activities with lots of wrist movement, we recommend using a chest strap for maximum accuracy.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-white">
+                                    <button class="btn btn-block text-left" data-toggle="collapse" data-target="#accordion5" style="box-shadow:none;">How accurrate is the heart monitor?<i class="fa-solid fa-angle-down float-right mt-1"></i></button>
+                                </div>
+                                <div id="accordion5" class="collapse collapsed" data-parent="#mainAccordion">
+                                    <div class="card-body">
+                                        The PulseFit Pro uses medical-grade optical heart rate technology that has been clinically validated for accuracy. In testing, it showed 99% correlation with ECG chest straps during steady-state activities. For high-intensity interval training or activities with lots of wrist movement, we recommend using a chest strap for maximum accuracy.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="subscription">
+            <div class="container justify-content-center">
+                <h1>Stay Updated</h1>
+                <p>Subscribe to get product updates, special offers, and fitness tips</p>
+                <form action="" class="row no-gutters form-row" id="form">
+                    <div class="col-7 form-group">
+                        <input type="text" class="form-control float-right" placeholder="Your email address">
+                    </div>
+                    <div class="col-5 form-group">
+                        <button class="btn btn-primary float-left">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="row mb-4 no-gutters">
+                <div class="col-lg-4 col-md-4 footer-about">
+                    <a href="" class="navbar-brand logo">PulseFit</a>
+                    <p>PulseFit is dedicated to creating innovative wearable technology that helps people live healthier, more active lives. Our products combine cutting-edge technology with elegant design.</p>
+                    <div class="social-links">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mt-4 mt-md-0 footer-links-box">
+                    <h1>Products</h1>
+                    <ul class="footer-links">
+                        <li>PulseFit Pro</li>
+                        <li>PulseFit Lite</li>
+                        <li>Accessories</li>
+                        <li>Watch Brands</li>
+                        <li>PulseFit App</li>
+                    </ul class="footer-links">
+                </div>
+                <div class="col-lg-2 col-md-4 footer-links-box">
+                    <h1>Support</h1>
+                    <ul class="footer-links">
+                        <li>Help Center</li>
+                        <li>User Manuals</li>
+                        <li>Warranty</li>
+                        <li>Returns</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mt-5 mt-lg-0 footer-links-box">
+                    <h1>Company</h1>
+                    <ul class="footer-links">
+                        <li>About Us</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Press</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mt-5 mt-lg-0 footer-links-box">
+                    <h1>Contact</h1>
+                    <ul class="footer-links">
+                        <li><i class="fa-solid fa-map-location-dot"></i>123 Tech Park, San Francisco</li>
+                        <li><i class="fa-solid fa-phone-alt"></i>(800) 555-1234</li>
+                        <li><i class="fa-solid fa-envelope"></i>support@pulsefitgmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 text-center text-white pt-4 copyright">
+                <span>&copy; 2023 PulseFit Technologies. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <!-- container end  -->
+    <!-- jQuery file  -->
+    <script src="./js/jquery.html.js"></script>
+    <!-- main JS file  -->
+    <script src="./js/main.js"></script>
+    <!-- animation library JS file  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
